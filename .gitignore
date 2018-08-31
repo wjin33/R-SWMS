@@ -1,0 +1,12 @@
+#ignore certain folder
+in----/
+in--other/
+in--withobstacles/
+in-new/
+out/
+PartraceInOut/
+simulation-results/
+partrace.debug.00000
+Input_PARTRACE.pTraceInpV12
+.Trash-1000/
+.build/

@@ -1,0 +1,87 @@
+***** ROOT GROWTH PARAMETERS - SOMMA MODEL *****
+
+*** Axis information ***
+* naxemg
+  4
+* tnewax(naxemg) [T] nnewax(naxemg) [-] 	inaxs(naxemg) [-]
+  0.00 1 -90
+  1.30 2 -80
+  1.80 1 -45
+  3.58 1 -45
+
+* geoaxs(naxemg) [-] % Weighting factor for pref. growth angle with horiz. plane
+          0.1 0.1 1.0 1.0
+* nangax(naxemg) [-]
+ 	  1	1 1 1
+* tempax(naxemg,nangax) [DEG] angaxs(naxemg,nangax) [DEG]
+	  20. -90.
+    20. -80.
+    20. -45.
+    20. -45.
+
+*** Information for laterals ***
+* geolat[-]
+  0.01
+* nanglt [-]
+  1
+* templt(nanglt) [DEG] anglat(nanglt)[DEG]
+  20.  0.
+
+**** Growth information ***
+* norder
+  2
+
+* nVch(norder) [-]
+  5 2
+* ageVch(norder,nVch)[T] Vch(norder,nVch)[L/T]:
+  0  2.110511111  0.5  1.679711111  1.0  1.199555556  1.5  0.981400000  2.0  0.661688889  2.5  0.619666667  3  0.06962963  3.5  0.744555556  4  1.622
+  0  0.699192593  0.5  0.585410256  1.0  0.403208333  1.5  0.158148148  2.0  0.181555556  2.5  0.0
+
+* SpWgt [M/L3]
+  0.0679
+
+*** Environmental influences on growth ***
+* nMPLch(norder) [-]
+  2 2
+* sMPLch(norder,nMPLch) [P] MPLch(norder,nMPLch) [M/L]
+  0  .00030    12. .00120
+  0  .00005    12. .00020
+
+* l_conduc 
+  f
+
+* condMP : Conductance in the macropore 
+  0
+
+* l_overburden 
+  f
+
+* strsen(norder) [-]
+  2.   2. 
+
+* rdmang(norder) [DEG]
+  10. 40.
+  
+* tempermin [DEG]  top[DEG]  tempermax[DEG]
+  0        20       35  
+
+* ltoxi
+  f
+* if ltoxi: cmin[N/L3] coptmi[N/L3] coptma[N/L3] cmax[N/L3]
+  0.000  0.1  1.5  2.0
+
+*** Branching information ***
+* brlmax(norder) [L]
+  200. 200.  
+* brspac(norder-1)[L]
+  0.3 
+* brnang(norder-1)[DEG]
+  45.
+* dtbrch(norder-1) [T]
+  3.0  
+
+*** Secondary radial growth ***
+*l_secrad  
+  f			
+* if l_secrad: f_rad(norder) [-]
+  1.6  1  1 

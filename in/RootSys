@@ -1,0 +1,39 @@
+Time:
+   0.00000   
+
+Number of seeds
+           1
+
+ID, X and Y coordinates of the seeds (one per line)
+    1  0.00E+00  0.00E+00
+
+Root DM, shoot DM, leaf area:
+  0.0000000  0.0000000   0.0000000    
+
+Average soil strength and solute concentration experienced by root system:
+   0.00000000000        0.0000000000000000     
+
+Total # of axes:
+         1
+
+Total # of branches, including axis(es):
+         1
+
+Total # of segment records:
+         2
+
+segID#    x          y          z      prev or  br#  length   surface  mass
+origination time
+    1  0.300E+00   0.000E+00   0.000E+00     0  1    1  5.00E-02 1.57E-02 3.53E-03
+ 0.0000E+00
+    2  0.300E+00   0.000E+00   -5.000E-02    1  1    1  5.00E-02 1.57E-02 3.53E-03
+ 0.0000E+00
+
+Total # of growing branch tips:
+         1
+
+tipID#    xg          yg          zg      sg.bhd.tp. ord  br#  tot.br.lgth. axs#
+overlength  # of estblished points
+time of establishing (-->)
+    1   0.300E+00   0.000E+00    -5.000E-02    2       1     1  1.00E-01     1
+-1.0000E-00    0
